@@ -5,7 +5,9 @@ Los elementos necesarios se ponen en marcha con docker compose. Incluyen
 * Un broker Kafka -- nótese que no necesita ZooKeeper
 
 ## Operaciones
+Lanzamiento de contenedores cliente, servidor ksqlDB y servidor Kafka. Apertura de una terminal en el cliente.
 ```
+docker compose up -d
 docker exec -it ksqldb-cli ksql http://ksqldb-server:8088
 ```
 En la consola aparece el prompt "ksql>" donde podemos insertar sentencias SQL. 
