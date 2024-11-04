@@ -2,7 +2,7 @@
 Los elementos necesarios se ponen en marcha con docker compose. Incluyen
 * Un servidor ksqlDB
 * Un cliente CLI
-* Un broker Kafka -- nótese que no necesita ZooKeeper
+* Un broker Kafka -- nótese que no necesita ZooKeeper. Está a la escucha en "broker:29092"
 
 ## Operaciones
 Lanzamiento de contenedores cliente, servidor ksqlDB y servidor Kafka. Apertura de una terminal en el cliente.
